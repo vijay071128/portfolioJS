@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+   <script type="text/javascript"
+   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+ emailjs.init({
+   publicKey: "KkiAirW4u5fBciPm_",
+ });
+})();
+</script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container" id="home">
+            <nav>
+                <img src="https://vj-tech.jp/icon-logo-2x.png"width="80px" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Developer</p>
+                <h1>Hi, I'm <span id="random-name">Vijay</span> <br>From Chennai</h1>
+            </div>
+        </div>
+    </div>
+
+                  <!------About ------>
+<div id="about" id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="img 1.jpg" >
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nisi animi voluptatibus porro accusamus doloribus eveniet molestias laboriosam, beatae, pariatur perspiciatis libero, expedita facere architecto.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab"id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents"id="education">
+                <ul>
+                    <li><span>2024</span><br>UI/UX Training at Code99 IT Acedamy</li>
+                    <li><span>2021</span><br>BCA From Prince Gowrivakkam</li>
+                    <li><span>2024</span><br>MCA Distance Education From Madras University</li>
+
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+</div>
+</div>
+               <!-- ----------------services------------ -->
+
+<div id="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet minus facilis recusandae exercitationem at quod explicabo nihil assumenda perspiciatis modi.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Developer</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet minus facilis recusandae exercitationem at quod explicabo nihil assumenda perspiciatis modi.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Interface</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet minus facilis recusandae exercitationem at quod explicabo nihil assumenda perspiciatis modi.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- -----------------------portfolio---------------- -->
+ <div id="portfolio" id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="https://graphicsfamily.com/wp-content/uploads/edd/2022/02/Free-Modern-Landing-Page-Template-2048x1152.jpg" >
+            <div class="layer">
+                <h3>Landing Page</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ut? Consequatur laudantium rem id quia.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg"  >
+            <div class="layer">
+                <h3>Portfolio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ut? Consequatur laudantium rem id quia.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="https://themewagon.com/wp-content/uploads/2021/12/restoran.png" >
+            <div class="layer">
+                <h3>Creative Website</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ut? Consequatur laudantium rem id quia.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+ </div>
+
+<!-- --------------------contact----------------------------- -->
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>frontendvijay@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7904613690</p>
+                <div class="social-icons">
+                    <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Vijay BCA CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Vijay. Made with <i class="fa-solid fa-heart"></i> by using JS </p>
+    </div>
+</div>
+
+
+<script src="./style.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8t3A1sXlmDZYrj08crD8Ui47UiI39d74k63rSibIbsEaEKUEKIcEAILlYPLJDm6Hmqw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
